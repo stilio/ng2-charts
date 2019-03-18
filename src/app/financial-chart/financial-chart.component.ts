@@ -4,6 +4,7 @@ import * as luxon from 'luxon';
 import 'chartjs-adapter-luxon';
 import { ChartOptions } from 'chart.js';
 import { Color, BaseChartDirective } from 'ng2-charts';
+import { AppChartMetaConfig } from '../app-chart-config';
 
 @Component({
   selector: 'app-financial-chart',
@@ -34,7 +35,7 @@ export class FinancialChartComponent implements OnInit {
   public financialChartType = 'candlestick';
   public financialChartPlugins = [];
 
-  @ViewChild(BaseChartDirective) chart: BaseChartDirective;
+  @ViewChild(BaseChartDirective) chart: BaseChartDirective<AppChartMetaConfig>;
 
   constructor() { }
 
