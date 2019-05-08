@@ -32,7 +32,7 @@
     "@angular/platform-browser": "~7.2.14",
     "@angular/platform-browser-dynamic": "~7.2.14",
     "@angular/router": "~7.2.14",
-    "chart.js": "^2.8.0",
+    "chart.js": "github:stilio/Chart.js",
     "chartjs-adapter-luxon": "^0.1.1",
     "chartjs-plugin-annotation": "^0.5.7",
     "chartjs-plugin-datalabels": "^0.6.0",
